@@ -1,7 +1,7 @@
 import {Navbar, Nav, Container} from "react-bootstrap";
 import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
-
+import Registrar from './Registrar';
 
 
 const navbar = () => {
@@ -15,7 +15,8 @@ const navbar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="">
-                <Nav.Link href="#">Registrar</Nav.Link>
+                
+                <Nav.Link href="./Registrar" >Registrar</Nav.Link>
                 <Nav.Link href="./Login">Login</Nav.Link>
              
               </Nav>
