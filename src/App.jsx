@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
-//import Home from './components/Home';
+import Home from './components/Home';
 //import Login from './components/Login';
 import Registrar from './components/Registrar'
 //import Modal from './components/Modal'
@@ -13,6 +13,7 @@ function App() {
     <Router>
       {/*{loading && <Spinner className="loading-box" animation="grow" variant="warning" />}*/}
       <Navbar/>
+      <Home/>
 
     {/*
       Nuestro paquete de rutas solo contiene un Home, un Login y el listado de Giftcars.

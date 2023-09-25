@@ -1,0 +1,10 @@
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .column {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }

@@ -1,32 +1,41 @@
-import React from 'react'
+import React from 'react';
+import './Home.css';
 
 const Home = () => {
   return (
-    <div>
-      <div className="row">
-  <div className="col-sm-5 mb-3 mb-sm-0">
-    <div className="card">
-      <div className="card-body">
-        <div className="d-grid gap-2 col-6 mx-auto">
-            <button className="btn btn-primary" type="button">Comidas</button>
-            <button className="btn btn-primary" type="button">Clientes</button>  
-            <button className="btn btn-primary" type="button">Personal</button>
+    <div className="home">
+      <div className="container text-center">
+
+      <div className="col-3">
+        <div className="column">
+
+        <h2>Columna de botones</h2>
+        <ul>
+          <li>
+            <button>Botón 1</button>
+          </li>
+          <li>
+            <button>Botón 2</button>
+          </li>
+          <li>
+            <button>Botón 2</button>
+          </li>
+        </ul>
+      </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div className="col-sm-6">
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" className="btn btn-primary">Go somewhere</a>
+      <div className="column">
+        <h2>Columna de lista de elementos</h2>
+        <ul>
+          <li>Elemento 1</li>
+          <li>Elemento 2</li>
+          <li>Elemento 3</li>
+          <li>Elemento 4</li>
+          <li>Elemento 5</li>
+        </ul>
       </div>
     </div>
-  </div>
-</div>
-    </div>
-  )
-}
+  );
+};
 
 export default Home
